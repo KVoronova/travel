@@ -87,3 +87,13 @@ color: #0D606F;
     color: #FFFFFF;
     padding-left: 10px;
   }
+
+  .story-link {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #0D606F; 
+  }
