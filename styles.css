@@ -47,7 +47,7 @@ h2 {
   flex-direction: column;
   position: relative;
 
-  background-image: url('/image/garrett-parker-unsplash.png');
+  background-image: url('image/garrett-parker-unsplash.png');
 
   background-repeat: no-repeat;
   background-position: center;
