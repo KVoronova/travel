@@ -1,0 +1,28 @@
+footer {
+   max-width: 1445px; 
+   margin: 0 auto;
+}
+
+.footer-text {
+    display: flex; 
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 728.96px;
+    height: 33.65px;
+    margin-left: 590px;
+    
+    }
+
+.footer-icons {
+display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+}
