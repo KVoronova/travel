@@ -9,6 +9,7 @@ body {
 .background-img {
     display: block;
     margin: 0 auto;  
+    background-image: url(../image/404error.png);
 }
 
 h1 {
