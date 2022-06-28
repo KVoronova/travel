@@ -9,13 +9,16 @@ padding-top: 194px;
 .container-destinations {
     display: flex;
     justify-content: space-between;
-    overflow-x: auto;
+    overflow-x: scroll;
     margin: 0px auto;
     max-width: 2520px;
     height: 800px;
     right: -540px;
   }
 
+  ::-webkit-scrollbar {
+    width: 0;
+  }
   .destinations-img {
     display: flex;
     justify-content: space-between;
@@ -25,6 +28,21 @@ padding-top: 194px;
     margin: 46px 30px 24px 30px; 
   }
   
+  .dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+    background-color: rgba(242, 120, 92, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #F2785C;
+  }
+
   .img1 {
     background-image: url(image/Rectangle-23.png);
     position: relative;
@@ -50,7 +68,7 @@ padding-top: 194px;
   padding: 0px 0px 40px 15px;
   }
 
-  .destinations-btn {
+  .seemore-btn {
     display: flex;
     flex-direction: row;
     justify-content: center; 
